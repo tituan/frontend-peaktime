@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'PPEditorialOld';
+    src: url('/fonts/PpEditorial/PPEditorialOld-Regular.woff2') format('woff2'),
+         url('/fonts/PpEditorial/PPEditorialOld-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'PPEditorialOld';
+    src: url('/fonts/PpEditorial/PPEditorialOld-Italic.woff2') format('woff2'),
+         url('/fonts/PpEditorial/PPEditorialOld-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'PPEditorialOld';
+    src: url('/fonts/PpEditorial/PPEditorialOld-Ultrabold.woff2') format('woff2'),
+         url('/fonts/PpEditorial/PPEditorialOld-Ultrabold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'PPEditorialOld';
+    src: url('/fonts/PpEditorial/PPEditorialOld-UltraboldItalic.woff2') format('woff2'),
+         url('/fonts/PpEditorial/PPEditorialOld-UltraboldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'PPEditorialOld';
+    src: url('/fonts/PpEditorial/PPEditorialOld-Ultralight.woff2') format('woff2'),
+         url('/fonts/PpEditorial/PPEditorialOld-Ultralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'PPEditorialOld';
+    src: url('/fonts/PpEditorial/PPEditorialOld-UltralightItalic.woff2') format('woff2'),
+         url('/fonts/PpEditorial/PPEditorialOld-UltralightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+
+  @font-face {
+     font-family: 'PPNikkeiPacific';
+     src: url('/fonts/PpNikkeiPacific/PPNikkeiPacific-Light.woff2') format('woff2'),
+          url('/fonts/PpNikkeiPacific/PPNikkeiPacific-Light.woff') format('woff');
+     font-weight: 300;
+     font-style: normal;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiPacific';
+     src: url('/fonts/PpNikkeiPacific/PPNikkeiPacific-LightItalic.woff2') format('woff2'),
+          url('/fonts/PpNikkeiPacific/PPNikkeiPacific-LightItalic.woff') format('woff');
+     font-weight: 300;
+     font-style: italic;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiPacific';
+     src: url('/fonts/PpNikkeiPacific/PPNikkeiPacific-Regular.woff2') format('woff2'),
+          url('/fonts/PpNikkeiPacific/PPNikkeiPacific-Regular.woff') format('woff');
+     font-weight: 400;
+     font-style: normal;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiPacific';
+     src: url('/fonts/PpNikkeiPacific/PPNikkeiPacific-RegularItalic.woff2') format('woff2'),
+          url('/fonts/PpNikkeiPacific/PPNikkeiPacific-RegularItalic.woff') format('woff');
+     font-weight: 400;
+     font-style: italic;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiPacific';
+     src: url('/fonts/PpNikkeiPacific/PPNikkeiPacific-Ultrabold.woff2') format('woff2'),
+          url('/fonts/PpNikkeiPacific/PPNikkeiPacific-Ultrabold.woff') format('woff');
+     font-weight: 800;
+     font-style: normal;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiPacific';
+     src: url('/fonts/PpNikkeiPacific/PPNikkeiPacific-UltraboldItalic.woff2') format('woff2'),
+          url('/fonts/PpNikkeiPacific/PPNikkeiPacific-UltraboldItalic.woff') format('woff');
+     font-weight: 800;
+     font-style: italic;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiJournal';
+     src: url('/fonts/PpNikkeiJournal/PPNikkeiJournal-Light.woff2') format('woff2'),
+          url('/fonts/PpNikkeiJournal/PPNikkeiJournal-Light.woff') format('woff');
+     font-weight: 300;
+     font-style: normal;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiJournal';
+     src: url('/fonts/PpNikkeiJournal/PPNikkeiJournal-LightItalic.woff2') format('woff2'),
+          url('/fonts/PpNikkeiJournal/PPNikkeiJournal-LightItalic.woff') format('woff');
+     font-weight: 300;
+     font-style: italic;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiJournal';
+     src: url('/fonts/PpNikkeiJournal/PPNikkeiJournal-Regular.woff2') format('woff2'),
+          url('/fonts/PpNikkeiJournal/PPNikkeiJournal-Regular.woff') format('woff');
+     font-weight: 400;
+     font-style: normal;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiJournal';
+     src: url('/fonts/PpNikkeiJournal/PPNikkeiJournal-RegularItalic.woff2') format('woff2'),
+          url('/fonts/PpNikkeiJournal/PPNikkeiJournal-RegularItalic.woff') format('woff');
+     font-weight: 400;
+     font-style: italic;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiJournal';
+     src: url('/fonts/PpNikkeiJournal/PPNikkeiJournal-Ultrabold.woff2') format('woff2'),
+          url('/fonts/PpNikkeiJournal/PPNikkeiJournal-Ultrabold.woff') format('woff');
+     font-weight: 800;
+     font-style: normal;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiJournal';
+     src: url('/fonts/PpNikkeiJournal/PPNikkeiJournal-UltraboldItalic.woff2') format('woff2'),
+          url('/fonts/PpNikkeiJournal/PPNikkeiJournal-UltraboldItalic.woff') format('woff');
+     font-weight: 800;
+     font-style: italic;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiLine';
+     src: url('/fonts/PpNikkeiLine/PPNikkeiLine-Light.woff2') format('woff2'),
+          url('/fonts/PpNikkeiLine/PPNikkeiLine-Light.woff') format('woff');
+     font-weight: 300;
+     font-style: normal;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiLine';
+     src: url('/fonts/PpNikkeiLine/PPNikkeiLine-LightItalic.woff2') format('woff2'),
+          url('/fonts/PpNikkeiLine/PPNikkeiLine-LightItalic.woff') format('woff');
+     font-weight: 300;
+     font-style: italic;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiLine';
+     src: url('/fonts/PpNikkeiLine/PPNikkeiLine-Regular.woff2') format('woff2'),
+          url('/fonts/PpNikkeiLine/PPNikkeiLine-Regular.woff') format('woff');
+     font-weight: 400;
+     font-style: normal;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiLine';
+     src: url('/fonts/PpNikkeiLine/PPNikkeiLine-RegularItalic.woff2') format('woff2'),
+          url('/fonts/PpNikkeiLine/PPNikkeiLine-RegularItalic.woff') format('woff');
+     font-weight: 400;
+     font-style: italic;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiLine';
+     src: url('/fonts/PpNikkeiLine/PPNikkeiLine-Ultrabold.woff2') format('woff2'),
+          url('/fonts/PpNikkeiLine/PPNikkeiLine-Ultrabold.woff') format('woff');
+     font-weight: 800;
+     font-style: normal;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiLine';
+     src: url('/fonts/PpNikkeiLine/PPNikkeiLine-UltraboldItalic.woff2') format('woff2'),
+          url('/fonts/PpNikkeiLine/PPNikkeiLine-UltraboldItalic.woff') format('woff');
+     font-weight: 800;
+     font-style: italic;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiMaru';
+     src: url('/fonts/PpNikkeiMaru/PPNikkeiMaru-Light.woff2') format('woff2'),
+          url('/fonts/PpNikkeiMaru/PPNikkeiMaru-Light.woff') format('woff');
+     font-weight: 300;
+     font-style: normal;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiMaru';
+     src: url('/fonts/PpNikkeiMaru/PPNikkeiMaru-LightItalic.woff2') format('woff2'),
+          url('/fonts/PpNikkeiMaru/PPNikkeiMaru-LightItalic.woff') format('woff');
+     font-weight: 300;
+     font-style: italic;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiMaru';
+     src: url('/fonts/PpNikkeiMaru/PPNikkeiMaru-Regular.woff2') format('woff2'),
+          url('/fonts/PpNikkeiMaru/PPNikkeiMaru-Regular.woff') format('woff');
+     font-weight: 400;
+     font-style: normal;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiMaru';
+     src: url('/fonts/PpNikkeiMaru/PPNikkeiMaru-RegularItalic.woff2') format('woff2'),
+          url('/fonts/PpNikkeiMaru/PPNikkeiMaru-RegularItalic.woff') format('woff');
+     font-weight: 400;
+     font-style: italic;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiMaru';
+     src: url('/fonts/PpNikkeiMaru/PPNikkeiMaru-Ultrabold.woff2') format('woff2'),
+          url('/fonts/PpNikkeiMaru/PPNikkeiMaru-Ultrabold.woff') format('woff');
+     font-weight: 800;
+     font-style: normal;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'PPNikkeiMaru';
+     src: url('/fonts/PpNikkeiMaru/PPNikkeiMaru-UltraboldItalic.woff2') format('woff2'),
+          url('/fonts/PpNikkeiMaru/PPNikkeiMaru-UltraboldItalic.woff') format('woff');
+     font-weight: 800;
+     font-style: italic;
+     font-display: swap;
+   }
+   

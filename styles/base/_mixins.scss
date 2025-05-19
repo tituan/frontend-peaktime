@@ -6,9 +6,9 @@ $breakpoint-desktop: 1024px;
 
 // ✅ Usage : @include tablet { ... } ou @include desktop { ... }
 
-@mixin tablet {
-    @media (min-width: #{$breakpoint-tablet}) {
-        @content;
+@mixin tablet{
+    @media (min-width: #{$breakpoint-tablet}) and (max-width: #{$breakpoint-desktop - 1px}) {
+      @content;
     }
 }
 
