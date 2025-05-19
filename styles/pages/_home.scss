@@ -1,18 +1,16 @@
 @use '../base/variables' as *;
 @use '../base/mixins' as *;
 
-body {
-    // exemple pour utilisation varaibles couleurs
-    background-color: $color-black;
-
-    // exemple pour font size 
+.title {
+    color: red;
     @include font-size(20);
 
-    // exemple pour media query responsive layout
-    @include tablet {
-        background-color: $color-gray;
-    }
     @include desktop {
-        background-color: $color-light-gray;
+        color: green;
+        @include font-size(40);
+    }
+    @include tablet {
+        @include font-size(30);
+        color: blue;
     }
 }
