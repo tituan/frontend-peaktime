@@ -1,5 +1,6 @@
 @use '../base/variables' as *;
 @use '../base/mixins' as *;
+@import '../components/_header.scss' ;
 
 body {
     // exemple pour utilisation varaibles couleurs
