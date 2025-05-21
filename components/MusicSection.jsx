@@ -111,6 +111,7 @@ import '@/styles/components/_musicSection.scss';
 import Link from 'next/link';
 
 const covers = [
+  { src: '/images/0.png', title: 'Track XXX', artist: 'Artist X', link: '#' },
   { src: '/images/1.png', title: 'Track One', artist: 'Artist A', link: '#' },
   { src: '/images/2.png', title: 'Track Two', artist: 'Artist B', link: '#' },
   { src: '/images/3.png', title: 'Track Three', artist: 'Artist C', link: '#' },
