@@ -125,7 +125,7 @@ export default function MusicSection() {
     centerMode: true,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 4000,
     centerPadding: '0px',
     slidesToShow: 5,
     speed: 500,
@@ -143,26 +143,28 @@ export default function MusicSection() {
 
   return (
     <section className="music-section">
-        <div className="music-section__text">
-            <h2>Last release</h2>
-            <p>Discover the latest tracks released by the Peaktime label.</p>
-        </div>
-        <div className="music-section__carousel">
-            <Slider {...settings}>
-            {covers.map((cover, index) => (
-                <div key={index} className="music-section__slide">
-                <div className="music-section__content">
-                    <img src={cover.src} alt={`${cover.title} by ${cover.artist}`} />
-                    <div className="music-section__meta">
-                    <Link href={cover.link}>
-                        <h3>{cover.title}</h3>
-                        <p>{cover.artist}</p>
-                    </Link>
+        <div className="music-section__wrapper">
+            <div className="music-section__text">
+                <h2>Last release</h2>
+                <p>Discover the latest tracks released by the Peaktime label.</p>
+            </div>
+            <div className="music-section__carousel">
+                <Slider {...settings}>
+                {covers.map((cover, index) => (
+                    <div key={index} className="music-section__slide">
+                    <div className="music-section__content">
+                        <img src={cover.src} alt={`${cover.title} by ${cover.artist}`} />
+                        <div className="music-section__meta">
+                        <Link href={cover.link}>
+                            <h3>{cover.title}</h3>
+                            <p>{cover.artist}</p>
+                        </Link>
+                        </div>
                     </div>
-                </div>
-                </div>
-            ))}
-            </Slider>
+                    </div>
+                ))}
+                </Slider>
+            </div>
         </div>
     </section>
   );

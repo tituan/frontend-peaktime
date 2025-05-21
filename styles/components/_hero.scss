@@ -3,7 +3,6 @@
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,11 +16,11 @@
       object-fit: cover;
       z-index: 1;
       filter: brightness(0.4);
-      // -webkit-filter: brightness(0.7);
-      // -moz-filter: brightness(0.7);
-      // -ms-filter: brightness(0.7);
-      // -o-filter: brightness(0.7);
-      // -webkit-backdrop-filter: blur(7px);
+      -webkit-filter: brightness(0.4);
+      -moz-filter: brightness(0.4);
+      -ms-filter: brightness(0.4);
+      -o-filter: brightness(0.4);
+      -webkit-backdrop-filter: blur(4px);
 
     }
   
@@ -47,8 +46,9 @@
   
       h1 {
         margin: 0;
-        width: 60vw;  
-        
+        padding: 0 20px;
+        width: 100%;  
+        max-width: 1140px;
         img {
           width: 100%;
           height: auto;
