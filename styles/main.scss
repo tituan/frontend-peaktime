@@ -1,9 +1,11 @@
-@use './base/reset';
-@use './base/variables';
-@use './base/mixins';
-@use './base/fonts';
+@use 'base/_reset' as *;
+@use 'base/_variables' as *;
+@use 'base/_mixins' as *;
+@use 'base/_fonts' as *;
+
 
 body {
     font-family: 'PPNikkeiPacific', serif;
+    background-color: $color-black-yellow;
 }
 

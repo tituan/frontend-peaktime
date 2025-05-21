@@ -1,10 +1,15 @@
 import '../styles/pages/_home.scss';
 import Image from "next/image";
+import Header from '../components/Header';
+import MusicSection from '../components/MusicSection';
 
 export default function Home() {
   return (
-    <section>
-      <h1 className='title'>hello hello</h1>
-    </section>
+    <>
+      <Header />
+      <main>
+        <MusicSection />
+      </main>
+    </>
   );
 }
