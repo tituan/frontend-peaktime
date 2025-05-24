@@ -106,7 +106,7 @@ const EventsSection = () => {
                 <span>{event.date}</span>
                 <span>{event.location}</span>
               </div>
-              <a href={event.link} className="button">Voir</a>
+              <a href={event.link} className="button">Show</a>
             </div>
           </div>
         ))}
