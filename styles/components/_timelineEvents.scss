@@ -3,12 +3,12 @@
 
 .eventsSection {
   padding: 50px 20px 100px;
-  
   border-bottom: 1px solid $color-primary;
+
   &__content {
     max-width: 1140px;
     margin: 50px auto;
-    // margin: 50px 0;
+
     &__title {
       color: $color-primary;
       text-transform: uppercase;
@@ -16,17 +16,20 @@
       margin-bottom: 20px;
       font-weight: 100;
     }
+
     &__text {
       color: $color-white;
       margin-bottom: 50px;
     }
   }
+
   &__wrapper {
     max-width: 1140px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+
     @include desktop {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -48,6 +51,7 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   border: 1px solid $color-primary;
   background-color: $color-black;
+  transition: transform 0.4s ease;
 
   .media {
     position: absolute;
@@ -87,7 +91,6 @@
     }
 
     .button {
-      // position: absolute;
       bottom: 1rem;
       right: 1rem;
       padding: 0.5rem 1rem;
@@ -102,18 +105,5 @@
         background-color: transparent;
       }
     }
-  }
-}
-
-// décalage pour l'effet visuel comme sur ton image
-.offset1 {
-  @include desktop {
-    margin-top: 2rem;
-  }
-}
-
-.offset2 {
-  @include desktop {
-    margin-top: 4rem;
   }
 }

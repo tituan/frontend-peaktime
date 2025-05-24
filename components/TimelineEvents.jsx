@@ -9,7 +9,7 @@ const events = [
     date: '24 Mai 2025',
     location: 'Paris',
     description: 'Une soirée exclusive pour fêter la sortie.',
-    media: '/images/6.png',
+    media: '/videos/logo-animated.mp4',
     link: '/event/release-party'
   },
   {
@@ -45,7 +45,7 @@ const events = [
     date: '01 Août 2025',
     location: 'Bordeaux',
     description: 'Un after show exclusif avec les artistes.',
-    media: '/images/0.png',
+    media: '/videos/video-test.mp4',
     link: '/event/after-show'
   },
   {
@@ -60,47 +60,59 @@ const events = [
 ];
 
 const EventsSection = () => {
+    
+  const shuffledEvents = [...events]
+  // Shuffle events and add random offsets for animation not used for the moment
+    .sort(() => Math.random() - 0)
+    // not used for the position of cards 
+    .map(event => ({
+      ...event,
+      offsetX: Math.floor(Math.random() * 50) - 20,
+      offsetY: Math.floor(Math.random() * 60) - 90
+    }));
+
   return (
     <section className="eventsSection">
-        <div className="eventsSection__content">
-            <h2 className="eventsSection__content__title">Events</h2>
-            <p className="eventsSection__content__text"> Discover upcoming events and relive the highlights that shape the Peaktime experience</p>
-        </div>
-        
-        <div className="eventsSection__wrapper">   
-            {events.map((event, index) => (
-                <div key={event.id} className={`eventCard offset-${index % 3}`}>
-                {event.media.endsWith('.mp4') ? (
-                    <video
-                    className="media"
-                    src={event.media}
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                    />
-                ) : (
-                    <div
-                    className="media"
-                    style={{ backgroundImage: `url(${event.media})` }}
-                    ></div>
-                )}
-                <div className="content">
-                    <h3>{event.title}</h3>
-                    <p>{event.description}</p>
-                    <div className="meta">
-                    <span>{event.date}</span>
-                    <span>{event.location}</span>
-                    </div>
-                    <a href={event.link} className="button">Voir</a>
-                </div>
-                </div>
-            ))}
-        </div>
-      
+      <div className="eventsSection__content">
+        <h2 className="eventsSection__content__title">Events</h2>
+        <p className="eventsSection__content__text">Discover upcoming events and relive the highlights that shape the Peaktime experience.</p>
+      </div>
+      <div className="eventsSection__wrapper">
+        {shuffledEvents.map((event) => (
+          <div
+            key={event.id}
+            className="eventCard"
+            // style={{ transform: `translate(${event.offsetX}px, ${event.offsetY}px)` }}
+          >
+            {event.media.endsWith('.mp4') ? (
+              <video
+                className="media"
+                src={event.media}
+                autoPlay
+                muted
+                loop
+                playsInline
+              />
+            ) : (
+              <div
+                className="media"
+                style={{ backgroundImage: `url(${event.media})` }}
+              ></div>
+            )}
+            <div className="content">
+              <h3>{event.title}</h3>
+              <p>{event.description}</p>
+              <div className="meta">
+                <span>{event.date}</span>
+                <span>{event.location}</span>
+              </div>
+              <a href={event.link} className="button">Voir</a>
+            </div>
+          </div>
+        ))}
+      </div>
     </section>
   );
 };
 
 export default EventsSection;
-
