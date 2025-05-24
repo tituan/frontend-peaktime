@@ -154,7 +154,7 @@
   border: 1px solid $color-primary;
   background-color: $color-black;
   transition: transform 0.4s ease;
-
+  
   .media {
     position: absolute;
     inset: 0;
@@ -165,6 +165,10 @@
     height: 100%;
     filter: brightness(0.6);
     object-fit: cover;
+    transition: transform 0.4s ease;
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 
   video.media {
