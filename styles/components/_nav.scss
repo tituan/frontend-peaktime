@@ -1,0 +1,50 @@
+@use '../base/_variables' as *;
+@use '../base/_mixins' as *;
+
+.nav {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    @include desktop {
+        position: relative
+    }
+    &__link {
+        color: $color-primary;
+        @include font-size(12);
+        font-family: $font-editorial;
+        margin-bottom: 3px;
+        text-transform: uppercase;
+        font-family: $font-archivo;
+        font-weight: 100;
+        @include desktop {
+            position: fixed;
+        }
+        &__1 {
+            @include desktop {
+                top: 20px;
+                left: 20px;
+            }
+        }
+        &__2 {
+            @include desktop {
+                top: 20px;
+                right: 20px;
+            }
+        }
+        &__3 {
+            @include desktop {
+                bottom: 20px;
+                right: 20px;
+            }
+        }
+        &__4 {
+            @include desktop {
+                left: 20px;
+                bottom: 20px;
+            }
+        }
+    }
+}

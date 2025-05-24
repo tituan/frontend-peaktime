@@ -4,15 +4,15 @@ import Image from 'next/image';
 export default function Hero() {
   return (
     <section className="hero">
-      <video
+      {/* <video
         className="hero__video"
         autoPlay
         muted
         loop
         playsInline
       >
-        <source src="/videos/video-test.mp4" type="video/mp4" />
-      </video>
+        <source src="/videos/logo-animated.mp4" type="video/mp4" />
+      </video> */}
 
       <div className="hero__overlay"></div>
 

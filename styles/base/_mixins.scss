@@ -1,5 +1,6 @@
 // Les mixins sont des blocs de styles que tu peux appeler plusieurs fois, comme des fonctions.
 // 🔁 Mixin media queries mobile-first
+@use "sass:math";
 
 // Breakpoints classiques (tu peux les adapter si besoin)
 $breakpoint-tablet: 768px;
@@ -47,10 +48,10 @@ $breakpoint-desktop: 1024px;
 
 
 
-// Convertit automatiquement px → rem (base 16px)
 @mixin font-size($size) {
-    font-size: #{$size / 16}rem;
+  font-size: #{math.div($size, 16)}rem;
 }
+
 
 // Exemple utilisation font size
 // donne font-size: 1.25rem;
